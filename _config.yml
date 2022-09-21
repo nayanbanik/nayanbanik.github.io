@@ -16,7 +16,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nayanbanik/nayanbanik.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-seo_description          : "Site for Nayan Banik, Lecturer of Computer Science and Engineering at Comilla University, Bangladesh"
+seo_description          : "Site for Nayan Banik, PhD Candidate in Computer Science (CS) at University of Wisconsin Milwaukee (UWM) and Assistant Professor of Computer Science and Engineering (Study Leave) at Comilla University, Bangladesh"
 words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -81,9 +81,9 @@ analytics:
 author:
   name             : "Nayan Banik"
   avatar           : "nayan.png"
-  bio              : "Academician, Researcher, and a Spiritual Soul :) <br> <br> Lecturer at Comilla University, <a style='color: black;' href='http://cou.ac.bd/cse'>Department of Computer Science and Engineering</a>"
-  location         : "Cumilla, Bangladesh"
-  employer         :
+  bio              : "Academician, Researcher, and a Spiritual Soul :) <br> <br> PhD Candidate in Computer Science (CS) at University of Wisconsin Milwaukee, USA and Assistant Professor of Computer Science and Engineering (Study Leave) at Comilla University, Bangladesh"
+  location         : "Milwaukee, Wisconsin"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=B3f6-HQAAAAJ"
   email            :
