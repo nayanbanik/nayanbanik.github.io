@@ -1,0 +1,298 @@
+# CV data in RenderCV format, shown at /cv/.
+# Dates and roles come from the ORCID record 0000-0003-4563-3314, the LinkedIn profile and the 2026 resume (read on 2026-11-24).
+# The Publications block at the end mirrors _bibliography/papers.bib.
+cv:
+  name: Nayan Banik
+  label: PhD Candidate in Computer Science
+  # email: left out on purpose, the CV page would print it as plain, scrapable text
+  location: Milwaukee, Wisconsin, USA
+  image: ""
+  summary: PhD candidate at the University of Wisconsin–Milwaukee and member of the BioRobotics Lab, working on assistive and mobile robotics. Recent work covers control of Mecanum-wheeled mobile robots and omnidirectional mobile manipulators, wheelchair-mounted robotic arms for activities of daily living, and studies with powered wheelchair users. Assistant Professor of Computer Science and Engineering (on study leave) at Comilla University, Bangladesh.
+
+  social_networks:
+    - network: GitHub
+      username: nayanbanik
+    - network: ORCID
+      username: 0000-0003-4563-3314
+    - network: Google Scholar
+      username: B3f6-HQAAAAJ
+
+  sections:
+    Education:
+      - institution: University of Wisconsin–Milwaukee
+        location: Milwaukee, Wisconsin, USA
+        url: https://uwm.edu/engineering/departments/computer-science/
+        area: Engineering (Computer Science)
+        studyType: PhD
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - "Research: robust, constraint-aware control of 9-DOF mobile manipulators."
+          - Member of the BioRobotics Lab.
+
+      - institution: Comilla University
+        location: Comilla, Bangladesh
+        url: http://cou.ac.bd/cse
+        area: Computer Science and Engineering
+        studyType: M.Sc. (Engg.)
+        start_date: 2017
+        end_date: 2018
+
+      - institution: Comilla University
+        location: Comilla, Bangladesh
+        url: http://cou.ac.bd/cse
+        area: Computer Science and Engineering
+        studyType: B.Sc. (Engg.)
+        start_date: 2012
+        end_date: 2016
+
+    Experience:
+      - company: University of Wisconsin–Milwaukee
+        position: Graduate Research Assistant, Mechanical Engineering
+        location: Milwaukee, Wisconsin, USA
+        start_date: 2023-01
+        end_date: present
+
+      - company: University of Wisconsin–Milwaukee
+        position: Graduate Teaching Assistant, Computer Science
+        location: Milwaukee, Wisconsin, USA
+        start_date: 2022-08
+        end_date: present
+
+      - company: Comilla University
+        position: Assistant Professor, Computer Science and Engineering (on study leave)
+        location: Comilla, Bangladesh
+        start_date: 2022-06
+        end_date: present
+
+      - company: Comilla University
+        position: Lecturer, Computer Science and Engineering
+        location: Comilla, Bangladesh
+        start_date: 2019-12
+        end_date: 2022-06
+
+      - company: Green University of Bangladesh
+        position: Lecturer, Computer Science and Engineering
+        location: Dhaka, Bangladesh
+        start_date: 2018-09
+        end_date: 2019-12
+
+      - company: Prime University
+        position: Lecturer, Computer Science and Engineering
+        location: Dhaka, Bangladesh
+        start_date: 2017-12
+        end_date: 2018-09
+
+    # Fellowships, awards and hackathon results, newest first. From the LinkedIn "Honors & awards" list;
+    # the hackathons have their own pages under /hackathons/.
+    Awards:
+      - title: "NVIDIA–Rockwell Physical AI Hackathon: 2nd Runner-Up"
+        date: 2026-11
+        awarder: NVIDIA and Rockwell Automation
+        summary: 2nd Runner-Up of 42 teams with team Machine Minds, as Digital Twin & Simulation Engineer.
+
+      - title: Distinguished Dissertation Fellowship
+        date: 2026
+        awarder: University of Wisconsin–Milwaukee
+        summary: Awarded for the 2026–27 academic year.
+
+      - title: Graduate Student Excellence Fellowship (GSEF)
+        date: 2025-09
+        awarder: University of Wisconsin–Milwaukee Graduate School
+        summary: Awarded for the 2025–26 academic year.
+
+      - title: "AI for Workplace Safety Hackathon: First Place, Best Business Solution"
+        date: 2025-03
+        awarder: Brady Corporation
+        summary: With team SafeSight AI, as AI Engineer and Full Stack Web Developer.
+
+      - title: "Kimberly-Clark Schedule Optimization Hackathon: Grand Prize"
+        date: 2024-12
+        awarder: Kimberly-Clark Corporation
+        summary: With team OpTiS AI, as Optimization Algorithm Developer.
+
+      - title: "Fortinet Attack & Defend Challenge: Champion"
+        date: 2024-09
+        awarder: Fortinet
+        summary: With team Shadow IT.
+
+      - title: Distinguished Graduate Student Fellowship (DGSF)
+        date: 2024-08
+        awarder: University of Wisconsin–Milwaukee Graduate School
+        summary: Supported full-time PhD studies in Engineering during the 2024–25 academic year.
+
+      - title: "Rockwell Automation Digital Twin Hackathon: Grand Prize, Best Innovation and Creativity, and Best Solution Efficiency"
+        date: 2024-04
+        awarder: Rockwell Automation
+        summary: With team InnoHackers, as System Architect and Simulation Expert.
+
+      - title: "Microsoft AI Chatbot Hackathon: First Prize"
+        date: 2023-12
+        awarder: Microsoft
+        summary: With team A.I.Chemist, as Lead AI Engineer.
+
+      - title: Chancellor's Graduate Student Award
+        date: 2022-09
+        awarder: College of Engineering & Applied Science, University of Wisconsin–Milwaukee
+
+      - title: Prime Minister Gold Medal 2017
+        date: 2018-02
+        awarder: University Grants Commission (UGC) and Prime Minister's Office, Bangladesh
+        summary: Awarded for securing the highest CGPA (3.91) in B.Sc. (Engg.) in the Faculty of Engineering, Comilla University.
+
+      - title: Dean's Award 2018
+        date: 2018-01
+        awarder: Faculty of Engineering, Comilla University
+        summary: For academic excellence in B.Sc. (Engg.) in Computer Science and Engineering.
+
+    Interests:
+      - name: Research interests
+        icon: fa-solid fa-robot
+        keywords: "Assistive Robotics, Mobile Robotics, Machine Learning, Deep Learning, Natural Language Processing"
+
+    Publications:
+      - title: "From theory to practice: How partial evaluation found its niche"
+        authors:
+          - "Xavier Adettu"
+          - "Nayan Banik"
+          - "Tian Zhao"
+        publisher: "Journal of Computer Languages"
+        releaseDate: "2026-12"
+        url: https://doi.org/10.1016/j.cola.2026.101427
+
+      - title: "A ROS 2-Based Modular Framework for Omnidirectional Mobile Manipulator Design: System Architecture and Coupled Kinematic Validation"
+        authors:
+          - "Nayan Banik"
+          - "Jawhar Ghommam"
+          - "Mohammad H. Rahman"
+        publisher: "Proceedings of the International Conference on Industrial Engineering and Operations Management"
+        releaseDate: "2026-06"
+        url: https://doi.org/10.46254/na11.20260409
+
+      - title: "Identifying Factors Influencing the Acceptance of Wheelchair-mounted Robotic Arms for Activities of Daily Living by Applying a Knowledge Translation Framework"
+        authors:
+          - "Md Samiul Haque Sunny"
+          - "Nayan Banik"
+          - "Asif Al Zubayer Swapnil"
+          - "Md Mahbubur Rahman"
+          - "Katie Schultz"
+          - "Inga Wang"
+          - "Mohammad Rahman"
+        publisher: "Archives of Physical Medicine and Rehabilitation"
+        releaseDate: "2026-05"
+        url: https://doi.org/10.1016/j.apmr.2026.02.388
+
+      - title: "Fluid Independence: Powered Wheelchair Users’ Perspectives on Autonomy, Care, and Assistive Technology"
+        authors:
+          - "Md Tanzil Shahria"
+          - "Nayan Banik"
+          - "Md Samiul Haque Sunny"
+          - "Mohammad H Rahman"
+        publisher: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+        releaseDate: "2026-04"
+        url: https://doi.org/10.1145/3772318.3791867
+
+      - title: "A Robust Model-Based Corrector Iterative Learning Control for Mecanum Robots: Comparative Analysis of Adaptive Architectures"
+        authors:
+          - "Nayan Banik"
+          - "Jawhar Ghommam"
+          - "Mohammad H. Rahman"
+        publisher: "2026 3rd International Conference on Unmanned Vehicle Systems-Oman (UVS)"
+        releaseDate: "2026-02"
+        url: https://doi.org/10.1109/UVS66989.2026.11449853
+
+      - title: "Wheelchair-mounted robotic arms: a systematic review of technical design and activities of daily living outcomes"
+        authors:
+          - "Md Mahbubur Rahman"
+          - "Nayan Banik"
+          - "Md Samiul Haque Sunny"
+          - "Md Ishrak Islam Zarif"
+          - "David Bedolla-Martinez"
+          - "Katie Schultz"
+          - "Sheikh Iqbal Ahamed"
+          - "Mohammad H. Rahman"
+        publisher: "Disability and Rehabilitation: Assistive Technology"
+        releaseDate: "2025-08"
+        url: https://doi.org/10.1080/17483107.2025.2547042
+
+      - title: "Identification of the Workspaces of Essential Activities of Daily Living for a Wheelchair-mounted Robotic Arm"
+        authors:
+          - "Md Samiul Haque Sunny"
+          - "Nayan Banik"
+          - "Md Mahbubur Rahman"
+          - "Tanvir Ahmed"
+          - "Gabriela Davila Albor"
+          - "Inga Wang"
+          - "Mohammad Rahman"
+        publisher: "Archives of Physical Medicine and Rehabilitation"
+        releaseDate: "2025-04"
+        url: https://doi.org/10.1016/j.apmr.2025.01.111
+
+      - title: "AssistKey: Efficient Operation & Mode Selection of a Wheelchair-mounted Assistive Robot"
+        authors:
+          - "Asif Al Zubayer Swapnil"
+          - "Md Ishrak Islam Zarif"
+          - "Md Samiul Haque Sunny"
+          - "Md Mahafuzur Rahaman Khan"
+          - "Nayan Banik"
+          - "Sheikh Iqbal Ahamed"
+          - "Inga Wang"
+          - "Mohammad Rahman"
+        publisher: "Archives of Physical Medicine and Rehabilitation"
+        releaseDate: "2025-04"
+        url: https://doi.org/10.1016/j.apmr.2025.01.064
+
+      - title: "Finite-Time Pure Pursuit Guidance Control of a Four Mecanum Wheeled Mobile Robot With Active Disturbance Rejection"
+        authors:
+          - "Nayan Banik"
+          - "Jawhar Ghommam"
+          - "Mohammad H. Rahman"
+        publisher: "IEEE Access"
+        releaseDate: "2025"
+        url: https://doi.org/10.1109/ACCESS.2025.3546864
+
+      - title: "Evaluation of Different Control Systems of Wheelchair-Mounted Assistive Robotic Arm in Performing Activities of Daily Living"
+        authors:
+          - "Md Ishrak Islam Zarif"
+          - "Md Samiul Haque Sunny"
+          - "Nayan Banik"
+          - "Emily Hope Robann Longwell-Grice"
+          - "Sheikh Iqbal Ahamed"
+          - "Inga Wang"
+          - "Mohammad H. Rahman"
+        publisher: "International Conference on Biomedical and Health Informatics 2024"
+        releaseDate: "2025"
+        url: https://doi.org/10.1007/978-3-031-86323-3_25
+
+      - title: "Navigating Daily Life: Insights from Powered Wheelchair Users on Assistive Technologies and Caregiver Support"
+        authors:
+          - "Md Tanzil Shahria"
+          - "Nayan Banik"
+          - "Md Samiul Haque Sunny"
+          - "Mohammad H Rahman"
+        publisher: "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
+        releaseDate: "2024-05"
+        url: https://doi.org/10.1145/3613905.3650863
+
+      - title: "Assistive robotic technologies: An overview of recent advances in medical applications"
+        authors:
+          - "Md Samiul Haque Sunny"
+          - "Md Mahbubur Rahman"
+          - "Md Enamul Haque"
+          - "Nayan Banik"
+          - "Helal Uddin Ahmed"
+          - "Mohammad Habibur Rahman"
+        publisher: "Medical and Healthcare Robotics"
+        releaseDate: "2023"
+        url: https://doi.org/10.1016/B978-0-443-18460-4.00004-4
+
+      - title: "Gamification of Upper Limb Rehabilitation in Mixed-Reality Environment"
+        authors:
+          - "Aditya Pillai"
+          - "Md Samiul Haque Sunny"
+          - "Md Tanzil Shahria"
+          - "Nayan Banik"
+          - "Mohammad Habibur Rahman"
+        publisher: "Applied Sciences"
+        releaseDate: "2022-11"
+        url: https://doi.org/10.3390/app122312260

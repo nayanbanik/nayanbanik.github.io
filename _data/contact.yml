@@ -1,0 +1,3 @@
+# Used by the contact line in _pages/about.md. With `protect_email: true` in _config.yml the address is
+# never written into the page as plain text: it is split in two and rejoined when a visitor clicks it.
+email: cse.nayan@gmail.com

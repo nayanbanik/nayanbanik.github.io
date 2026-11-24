@@ -1,0 +1,57 @@
+# Google Scholar citation counts, keyed by <scholar user id>:<paper id>. Read from the profile on 2026-11-24.
+# The `Update Google Scholar Citations` GitHub workflow refreshes this file once the site is on GitHub.
+metadata:
+  last_updated: '2026-11-24'
+papers:
+  "B3f6-HQAAAAJ:hFOr9nPyWt4C":
+    citations: 0
+    title: "From theory to practice: How partial evaluation found its niche"
+    year: '2026'
+  "B3f6-HQAAAAJ:-f6ydRqryjwC":
+    citations: 0
+    title: "A ROS 2-Based Modular Framework for Omnidirectional Mobile Manipulator Design: System Architecture and Coupled Kinematic Validation"
+    year: '2026'
+  "B3f6-HQAAAAJ:hC7cP41nSMkC":
+    citations: 0
+    title: "Identifying Factors Influencing the Acceptance of Wheelchair-mounted Robotic Arms for Activities of Daily Living by Applying a Knowledge Translation Framework"
+    year: '2026'
+  "B3f6-HQAAAAJ:qUcmZB5y_30C":
+    citations: 2
+    title: "Fluid Independence: Powered Wheelchair Users’ Perspectives on Autonomy, Care, and Assistive Technology"
+    year: '2026'
+  "B3f6-HQAAAAJ:L8Ckcad2t8MC":
+    citations: 1
+    title: "A Robust Model-Based Corrector Iterative Learning Control for Mecanum Robots: Comparative Analysis of Adaptive Architectures"
+    year: '2026'
+  "B3f6-HQAAAAJ:4DMP91E08xMC":
+    citations: 10
+    title: "Wheelchair-mounted robotic arms: a systematic review of technical design and activities of daily living outcomes"
+    year: '2025'
+  "B3f6-HQAAAAJ:_kc_bZDykSQC":
+    citations: 2
+    title: "Identification of the Workspaces of Essential Activities of Daily Living for a Wheelchair-mounted Robotic Arm"
+    year: '2025'
+  "B3f6-HQAAAAJ:YOwf2qJgpHMC":
+    citations: 1
+    title: "AssistKey: Efficient Operation & Mode Selection of a Wheelchair-mounted Assistive Robot"
+    year: '2025'
+  "B3f6-HQAAAAJ:Zph67rFs4hoC":
+    citations: 14
+    title: "Finite-Time Pure Pursuit Guidance Control of a Four Mecanum Wheeled Mobile Robot With Active Disturbance Rejection"
+    year: '2025'
+  "B3f6-HQAAAAJ:4TOpqqG69KYC":
+    citations: 2
+    title: "Evaluation of Different Control Systems of Wheelchair-Mounted Assistive Robotic Arm in Performing Activities of Daily Living"
+    year: '2025'
+  "B3f6-HQAAAAJ:3fE2CSJIrl8C":
+    citations: 3
+    title: "Navigating Daily Life: Insights from Powered Wheelchair Users on Assistive Technologies and Caregiver Support"
+    year: '2024'
+  "B3f6-HQAAAAJ:8k81kl-MbHgC":
+    citations: 12
+    title: "Assistive robotic technologies: An overview of recent advances in medical applications"
+    year: '2023'
+  "B3f6-HQAAAAJ:5nxA0vEk-isC":
+    citations: 30
+    title: "Gamification of Upper Limb Rehabilitation in Mixed-Reality Environment"
+    year: '2022'

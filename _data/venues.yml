@@ -1,0 +1,5 @@
+# Maps a publication badge (the `abbr` field in _bibliography/papers.bib) to a link and/or colour, for example:
+# "CHI":
+#   url: https://example.org/
+#   color: "#00629b"
+{}

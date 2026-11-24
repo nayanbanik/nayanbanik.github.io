@@ -1,0 +1,7 @@
+# Used by _pages/repositories.md (currently switched off in the `exclude` list of _config.yml).
+github_users:
+  - nayanbanik
+
+repo_description_lines_max: 2
+
+github_repos: []
